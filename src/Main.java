@@ -59,6 +59,19 @@ public class Main {
                         } else {
                             System.out.println("Стоячих мест нет");
 
+                            int years = 16;
+                            if (years >= 6 && years <= 18) {
+                                System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в садик");
+                            } else if (years > 6 && years <= 18) {
+                                System.out.println("Если возраст человека равен" + years + ", то ему нужно ходить в школу");
+                            } else if (years > 18 && years <= 24) {
+                                System.out.println("Если возраст человека равен" + years + ", то ему нужно ходить в универ");
+                            } else if (years > 24) {
+                                System.out.println("Если возраст человека равен" + years + ", то ему нужно ходить на работу");
+                            }
+                            if (yearsOLd < 5) {
+                                System.out.println("Ребенок не может кататся на аттракционе");
+                            }
                         }
                     }
                 }
